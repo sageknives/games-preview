@@ -1,0 +1,339 @@
+{
+  "id:": 1,
+  "to": 2,
+  "from": 3,
+  "name": "tutorial",
+  "type": "2dScroller",
+  "assets": {
+    "fly": {
+      "name": "fly",
+      "src": "enemies/enemy_fly.png",
+      "width": 60,
+      "height": 44,
+      "relativeHeight": 44,
+      "states": {
+        "idle": {
+          "row": 0,
+          "frames": 6,
+          "inset": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+        }
+      }
+    },
+    "plant": {
+      "name": "plant",
+      "src": "enemies/enemy_plant.png",
+      "width": 60,
+      "height": 87,
+      "relativeHeight": 87,
+      "states": {
+        "idle": {
+          "row": 0,
+          "frames": 2,
+          "inset": { "top": 0, "right": 0, "bottom": 0, "left": 0 }
+        }
+      }
+    }
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 599,
+      "width": 500,
+      "height": 121,
+      "src": "level1/ground.png"
+    },
+    {
+      "x": 800,
+      "y": 599,
+      "width": 1400,
+      "height": 121,
+      "src": "level1/ground.png"
+    },
+    {
+      "x": 3050,
+      "y": 599,
+      "width": 4000,
+      "height": 121,
+      "src": "level1/ground.png"
+    },
+    {
+      "x": 1000,
+      "y": 299,
+      "width": 200,
+      "height": 300,
+      "src": "level1/ground.png",
+      "repeat": "repeat"
+    },
+    {
+      "x": 4440,
+      "y": 300,
+      "width": 100,
+      "height": 50,
+      "src": "level1/ground.png"
+    },
+    {
+      "x": 4700,
+      "y": 200,
+      "width": 300,
+      "height": 50,
+      "src": "level1/ground.png"
+    },
+    {
+      "x": 5300,
+      "y": 100,
+      "width": 300,
+      "height": 50,
+      "src": "level1/ground.png"
+    },
+    {
+      "x": 5800,
+      "y": 50,
+      "width": 400,
+      "height": 50,
+      "src": "level1/ground.png"
+    },
+    {
+      "x": 1600,
+      "y": 200,
+      "width": 300,
+      "height": 50,
+      "src": "level1/ground.png"
+    },
+    {
+      "x": 2100,
+      "y": 100,
+      "width": 300,
+      "height": 50,
+      "src": "level1/ground.png"
+    },
+    {
+      "x": 3000,
+      "y": 150,
+      "width": 300,
+      "height": 50,
+      "src": "level1/ground.png"
+    },
+    {
+      "x": 3300,
+      "y": 300,
+      "width": 300,
+      "height": 50,
+      "src": "level1/ground.png"
+    }
+  ],
+  "enemies": [
+    {
+      "x": 200,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 400,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 600,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 800,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 1000,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 1200,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 1400,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 1600,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 1800,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 2000,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 2200,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 2400,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 2600,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 2800,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 3000,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 3200,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 1000,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 3400,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 3600,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 3800,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 4000,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 4200,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 4400,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 4600,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 4800,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 5000,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 5200,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 5400,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 5600,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 5800,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 6000,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 6200,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 6400,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 6800,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 7000,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 7200,
+      "y": 180,
+      "type": "fly"
+    },
+    {
+      "x": 4000,
+      "y": 515,
+      "type": "plant"
+    },
+    {
+      "x": 4800,
+      "y": 115,
+      "type": "plant"
+    },
+    {
+      "x": 6000,
+      "y": 515,
+      "type": "plant"
+    }
+  ],
+  "backgrounds": [
+    {
+      "speed": 0.2,
+      "src": "level1/layer-1.png"
+    },
+    {
+      "speed": 0.4,
+      "src": "level1/layer-2.png"
+    },
+    {
+      "speed": 0.6,
+      "src": "level1/layer-3.png"
+    },
+    {
+      "speed": 0.8,
+      "src": "level1/layer-4.png"
+    }
+  ]
+}
