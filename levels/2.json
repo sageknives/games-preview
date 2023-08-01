@@ -7,7 +7,7 @@
   "assets": {
     "fly": {
       "name": "fly",
-      "src": "enemies/enemy_fly.png",
+      "imageSrc": "fly",
       "width": 60,
       "height": 44,
       "relativeHeight": 44,
@@ -21,7 +21,7 @@
     },
     "plant": {
       "name": "plant",
-      "src": "enemies/enemy_plant.png",
+      "imageSrc": "plant",
       "width": 60,
       "height": 87,
       "relativeHeight": 87,
@@ -35,7 +35,7 @@
     },
     "spider": {
       "name": "spider",
-      "src": "enemies/enemy_spider_big.png",
+      "imageSrc": "spider",
       "width": 120,
       "height": 144,
       "relativeHeight": 144,
@@ -48,34 +48,44 @@
       }
     }
   },
+  "imageSrc": {
+    "ground": "level2/ground.png",
+    "plant": "enemies/enemy_plant.png",
+    "fly": "enemies/enemy_fly.png",
+    "spider": "enemies/enemy_spider_big.png",
+    "layer1": "level2/layer-1.png",
+    "layer2": "level2/layer-2.png",
+    "layer3": "level2/layer-3.png",
+    "layer4": "level2/layer-4.png"
+  },
   "platforms": [
     {
       "x": 0,
       "y": 599,
       "width": 800,
       "height": 121,
-      "src": "level2/ground.png"
+      "imageSrc": "ground"
     },
     {
       "x": 1100,
       "y": 599,
       "width": 1400,
       "height": 121,
-      "src": "level2/ground.png"
+      "imageSrc": "ground"
     },
     {
       "x": 3050,
       "y": 599,
       "width": 4000,
       "height": 121,
-      "src": "level2/ground.png"
+      "imageSrc": "ground"
     },
     {
       "x": 1000,
       "y": 299,
       "width": 200,
       "height": 300,
-      "src": "level2/ground.png",
+      "imageSrc": "ground",
       "repeat": "repeat"
     },
     {
@@ -83,28 +93,28 @@
       "y": 300,
       "width": 300,
       "height": 50,
-      "src": "level2/ground.png"
+      "imageSrc": "ground"
     },
     {
       "x": 2100,
       "y": 200,
       "width": 300,
       "height": 50,
-      "src": "level2/ground.png"
+      "imageSrc": "ground"
     },
     {
       "x": 3000,
       "y": 250,
       "width": 300,
       "height": 50,
-      "src": "level2/ground.png"
+      "imageSrc": "ground"
     },
     {
       "x": 3300,
       "y": 400,
       "width": 300,
       "height": 50,
-      "src": "level2/ground.png"
+      "imageSrc": "ground"
     }
   ],
   "enemies": [
@@ -337,19 +347,19 @@
   "backgrounds": [
     {
       "speed": 0.2,
-      "src": "level2/layer-1.png"
+      "imageSrc": "layer1"
     },
     {
       "speed": 0.4,
-      "src": "level2/layer-2.png"
+      "imageSrc": "layer2"
     },
     {
       "speed": 0.6,
-      "src": "level2/layer-3.png"
+      "imageSrc": "layer3"
     },
     {
       "speed": 0.8,
-      "src": "level2/layer-4.png"
+      "imageSrc": "layer4"
     }
   ]
 }
